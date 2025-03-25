@@ -26,7 +26,8 @@
 
 6. [Colaboración y Pull Requests](#colaboración-y-pull-requests)
     -[Fork de un repositorio existente](#fork-de-un-repositorio-existente)   
-    -[Clonar el repositorio forkeado](#)
+    -[Clonar el repositorio forkeado](#clonar-el-repositorio-forkeado)  
+    -[Realizar cambios y enviar un Pull Request](#realizar-cambios-y-enviar-un-pull-request)
 
 ## Introducción a Git y 
 
@@ -154,9 +155,26 @@ git remote add origin https://github.com/tuusuario/tu-repositorio.git
 - que es:
 Un fork es una copia de un repositorio que se hace en tu propia cuenta de GitHub. Es como clonar el proyecto de alguien más, pero dentro de tu espacio, para que puedas trabajar libremente sin afectar el original.
 
+para hacer el Fork hay que ingresar a un repositorio de alguien y entrar a la opcion de fork y lo creamos
 
-- Clonar el repositorio forkeado:
+![git](imagenes/14.jpg)
+
+
+## Clonar el repositorio forkeado:
 cuando ya tengamos clonado el repositorio atravez del Fork ingresar a la terminal e ingresar este comando 
 ```
 git clone "://github.com/tu-usuario/reposotio a clonar 
 ```
+![git](imagenes/15.jpg)
+
+## Realizar cambios y enviar un Pull Request:
+
+- Crear una nueva rama, realizar modificaciones, confirmar los cambios y subir la rama al repositorio remoto:
+
+![git](imagenes/16.jpg)
+
+ingresar al git e ingresar a compare & pull request 
+
+![git](imagenes/17.jpg)
+![git](imagenes/18.jpg)
+![git](imagenes/19.jpg)
