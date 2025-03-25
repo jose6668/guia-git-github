@@ -4,20 +4,29 @@
 
 1. [Introducción a Git y GitHub](#Introducción-a-Git-y-GitHub)
 
-    1.1 [Git](#git)  
-    1.2 [Git](#github)  
+    - [Git](#git)  
+    - [Git](#github)  
 2. [Configuración del Entorno](#configuración-del-entorno)
 
-    2.1 [Creación de una cuenta en GitHub](#creación-de-una-cuenta-en-github)   
-    2.2 [Instalación de Git](#instalación-de-git)  
-    2.3 [Configuración Inicial de Git](#configuración-inicial-de-git)
+    - [Creación de una cuenta en GitHub](#creación-de-una-cuenta-en-github)   
+    - [Instalación de Git](#instalación-de-git)  
+    - [Configuración Inicial de Git](#configuración-inicial-de-git)
 
 3. [Creación y Manejo de un Repositorio](#creación-y-manejo-de-un-repositorio)
 
-    3.1 [inicializar un nuevo repositorio](#inicializar-un-nuevo-repositorio)   
-    3.2 [Seguimiento de archivos](#seguimiento-de-archivos)  
+    - [inicializar un nuevo repositorio](#inicializar-un-nuevo-repositorio)   
+    - [Seguimiento de archivos](#seguimiento-de-archivos)  
 
 4. [Trabajo con Ramas](#trabajo-con-ramas)
+
+    - [Creación de una nueva rama](#creación-de-una-nueva-rama)  
+    - [Fusión de ramas](#fusión-de-ramas)
+
+5. [Publicación en GitHub](#publicación-en-github)
+
+6. [Colaboración y Pull Requests](#colaboración-y-pull-requests)
+    -[Fork de un repositorio existente](#fork-de-un-repositorio-existente)   
+    -[Clonar el repositorio forkeado](#)
 
 ## Introducción a Git y 
 
@@ -93,9 +102,30 @@ otra manera para hacerlo es ingresar a source control y en la parte de changes u
 ![git](imagenes/12.jpg)
 
 
-## Trabajo con Ramas
+#### Trabajo con Ramas
 
-1. Creación de una nueva rama:
+## Creación de una nueva rama:
 con el comando "git checkout -b desarrollo" creamos una nueva rama  que es como una línea paralela de desarrollo dentro de tu proyecto. Lo que permite trabajar en cambios sin afectar directamente el proyecto principal.
 
+## Fusión de ramas:
 tener en cuenta que cuando estemos en una rama no se podra guardar la informacion hasta que unamos las ramas con el comando "git merge desarrollo" y hay si podemos guardar la información ademas cuando estemos en una rama las demas personas que estan en la rama principal o en otra no podran visializar lo que estomos haciendo.
+
+
+![git](imagenes/13.jpg)
+
+
+#### Publicación en GitHub:
+
+- Vincular el repositorio local con GitHub:
+para vincular el repositorio se suguiere que solo sea en los casos en el cual uno aga un repositorio desde cero.
+con el siguiente comando en la terminal se podra vincular "git remote add origin https://github.com/tuusuario/tu-repositorio.git"
+
+#### Colaboración y Pull Requests:
+
+## Fork de un repositorio existente:
+- que es:
+Un fork es una copia de un repositorio que se hace en tu propia cuenta de GitHub. Es como clonar el proyecto de alguien más, pero dentro de tu espacio, para que puedas trabajar libremente sin afectar el original.
+
+
+- Clonar el repositorio forkeado:
+cuando ya tengamos clonado el repositorio atravez del Fork ingresar a la terminal e ingresar este comando "git clone "://github.com/tu-usuario/reposotio a clonar "
