@@ -17,6 +17,8 @@
     3.1 [inicializar un nuevo repositorio](#inicializar-un-nuevo-repositorio)   
     3.2 [Seguimiento de archivos](#seguimiento-de-archivos)  
 
+4. [Trabajo con Ramas](#trabajo-con-ramas)
+
 ## Introducción a Git y 
 
 #### Git:
@@ -49,7 +51,7 @@ descargarlo e instalarlo, la instalación es sencilla, solo toca undirle a todo 
 
 1. primero debemos crear un repositorio en nuestra cuenta.
 ![git](imagenes/5.jpg)
-tener en cuenta ponerlo en publico para que las demas personas puedan ingresar sin niguna dificultad, ademas tambien hay que tener en cuenta chuliar la opcion de add a README file.
+tener en cuenta ponerlo en publico para que las demas personas puedan ingresar sin niguna dificultad, ademas tambien hay que tener en cuenta chuliar la opcion de add a README file si queremos que desde un inicio tengamos un archivo md.
 
 2. para ingresar o habrir este rapositorio debemos abrir vscode e ingresar los siguientes comandos.
  ![git](imagenes/6.jpg)
@@ -68,7 +70,7 @@ la mejor manera para realizarlo y si contamos con conectividad a internet seria 
 
 1. Creacion ce archivo README.md con una breve descripción del proyecto:
 
-si realizan el repositorio como se indica en esta guia por defecto el archivo README ya esta creado pero si lo desean crear es de la siguiente manera.
+si realizan el repositorio como se indica en esta guia ya esta creado el md pero si lo desean crear es de la siguiente manera.
 ![git](imagenes/8.jpg)
 con el comando echo "#  comentario que aparece en el md" > README.md  
 
@@ -85,4 +87,14 @@ primero hay que agregar los archivos que tengamos con git add en este caso son "
 ![git](imagenes/9.jpg)
 si depronto no se guarda la informacion o no aparece en el git ingresar este comando git git push
 ![git](imagenes/10.jpg)
-otra manera para hacerlo es ingresar a source control y en la parte de changes undirle en el +, en la casilla de arriba ingresar  feat: update   , luego en commint y luego en syn  
+otra manera para hacerlo es ingresar a source control y en la parte de changes undirle en el +, en la casilla de arriba ingresar  feat: cualquier comentario , luego en commint y luego en sync changes.
+
+![git](imagenes/11.jpg)
+![git](imagenes/12.jpg)
+
+
+## Trabajo con Ramas
+
+1. Creación de una nueva rama:
+con el comando "git checkout -b desarrollo" creamos una nueva rama  que es como una línea paralela de desarrollo dentro de tu proyecto. Lo que permite trabajar en cambios sin afectar directamente el proyecto principal
+
