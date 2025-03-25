@@ -64,6 +64,10 @@ tener en cuenta ponerlo en publico para que las demas personas puedan ingresar s
 
 2. para ingresar o habrir este rapositorio debemos abrir vscode e ingresar los siguientes comandos.
  ![git](imagenes/6.jpg)
+ ```
+ git config --global user.name "Tu Nombre"
+ git config --global user.email "tuemail@example.com"
+ ```
 
 ## Creación y Manejo de un Repositorio:
 
@@ -85,18 +89,31 @@ con el comando echo "#  comentario que aparece en el md" > README.md
 
 2. Agregar un archivo al área:
 
-con el comando git add "archivo" en este caso es git add README.md 
+con el comando
+``` 
+ git add README.md y git add imagenes
+```
 este comando lo añade al staging area, es decir, lo prepara para ser guardado en el repositorio en el siguiente commit.
 
 3. Realizar un commit:
 
 - Guardar los cambios en el historial del repositorio:
 
-primero hay que agregar los archivos que tengamos con git add en este caso son "add README.md" y "git add imagenes" y por ultimo git commit -m "Agregar archivo README"
+primero hay que agregar los archivos que tengamos con el anterior comando
+``` 
+ git commit -m "Agregar archivo README y imagenes"
+```
 ![git](imagenes/9.jpg)
-si depronto no se guarda la informacion o no aparece en el git ingresar este comando git git push
+si depronto no se guarda la informacion o no aparece en el git ingresar este comando
+```
+ git git push
+ ```
 ![git](imagenes/10.jpg)
-otra manera para hacerlo es ingresar a source control y en la parte de changes undirle en el +, en la casilla de arriba ingresar  feat: cualquier comentario , luego en commint y luego en sync changes.
+otra manera para hacerlo es ingresar a source control y en la parte de changes undirle en el +, en la casilla de arriba ingresar
+```  
+feat: cualquier comentario
+```
+luego en commint y luego en sync changes.
 
 ![git](imagenes/11.jpg)
 ![git](imagenes/12.jpg)
@@ -105,10 +122,18 @@ otra manera para hacerlo es ingresar a source control y en la parte de changes u
 #### Trabajo con Ramas
 
 ## Creación de una nueva rama:
-con el comando "git checkout -b desarrollo" creamos una nueva rama  que es como una línea paralela de desarrollo dentro de tu proyecto. Lo que permite trabajar en cambios sin afectar directamente el proyecto principal.
+con el comando 
+```
+git checkout -b desarrollo 
+```
+creamos una nueva rama  que es como una línea paralela de desarrollo dentro de tu proyecto. Lo que permite trabajar en cambios sin afectar directamente el proyecto principal.
 
 ## Fusión de ramas:
-tener en cuenta que cuando estemos en una rama no se podra guardar la informacion hasta que unamos las ramas con el comando "git merge desarrollo" y hay si podemos guardar la información ademas cuando estemos en una rama las demas personas que estan en la rama principal o en otra no podran visializar lo que estomos haciendo.
+tener en cuenta que cuando estemos en una rama no se podra guardar la informacion hasta que unamos las ramas con el comando 
+```
+git merge desarrollo
+```
+y hay si podemos guardar la información ademas cuando estemos en una rama las demas personas que estan en la rama principal o en otra no podran visializar lo que estomos haciendo.
 
 
 ![git](imagenes/13.jpg)
@@ -118,7 +143,10 @@ tener en cuenta que cuando estemos en una rama no se podra guardar la informacio
 
 - Vincular el repositorio local con GitHub:
 para vincular el repositorio se suguiere que solo sea en los casos en el cual uno aga un repositorio desde cero.
-con el siguiente comando en la terminal se podra vincular "git remote add origin https://github.com/tuusuario/tu-repositorio.git"
+con el siguiente comando en la terminal se podra vincular 
+```
+git remote add origin https://github.com/tuusuario/tu-repositorio.git
+```
 
 #### Colaboración y Pull Requests:
 
@@ -128,4 +156,7 @@ Un fork es una copia de un repositorio que se hace en tu propia cuenta de GitHub
 
 
 - Clonar el repositorio forkeado:
-cuando ya tengamos clonado el repositorio atravez del Fork ingresar a la terminal e ingresar este comando "git clone "://github.com/tu-usuario/reposotio a clonar "
+cuando ya tengamos clonado el repositorio atravez del Fork ingresar a la terminal e ingresar este comando 
+```
+git clone "://github.com/tu-usuario/reposotio a clonar 
+```
