@@ -85,4 +85,4 @@ primero hay que agregar los archivos que tengamos con git add en este caso son "
 ![git](imagenes/9.jpg)
 si depronto no se guarda la informacion o no aparece en el git ingresar este comando git git push
 ![git](imagenes/10.jpg)
-otra manera para hacerlo es ingresar a source control y en la parte de changes undirle en el +  y luego en commint 
+otra manera para hacerlo es ingresar a source control y en la parte de changes undirle en el +, en la casilla de arriba ingresar  feat: update   , luego en commint y luego en syn  
