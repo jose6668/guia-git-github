@@ -78,3 +78,9 @@ con el comando git add "archivo" en este caso es git add README.md
 este comando lo añade al staging area, es decir, lo prepara para ser guardado en el repositorio en el siguiente commit.
 
 3. Realizar un commit:
+
+- Guardar los cambios en el historial del repositorio:
+
+primero hay que agregar los archivos que tengamos con git add en este caso son "add README.md" y "git add imagenes" y por ultimo git commit -m "Agregar archivo README"
+![git](imagenes/9.jpg)
+si depronto no se guarda la informacion o no aparece en el git ingresar este comando git git push
