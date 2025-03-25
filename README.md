@@ -96,5 +96,6 @@ otra manera para hacerlo es ingresar a source control y en la parte de changes u
 ## Trabajo con Ramas
 
 1. Creación de una nueva rama:
-con el comando "git checkout -b desarrollo" creamos una nueva rama  que es como una línea paralela de desarrollo dentro de tu proyecto. Lo que permite trabajar en cambios sin afectar directamente el proyecto principal
+con el comando "git checkout -b desarrollo" creamos una nueva rama  que es como una línea paralela de desarrollo dentro de tu proyecto. Lo que permite trabajar en cambios sin afectar directamente el proyecto principal.
 
+tener en cuenta que cuando estemos en una rama no se podra guardar la informacion hasta que unamos las ramas con el comando "git merge desarrollo" y hay si podemos guardar la información ademas cuando estemos en una rama las demas personas que estan en la rama principal o en otra no podran visializar lo que estomos haciendo.
